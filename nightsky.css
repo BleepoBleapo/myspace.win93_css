@@ -1,0 +1,158 @@
+*{
+   font-family: "ＭＳ Ｐゴシック";
+          font-smoothing: never;
+  -webkit-font-smoothing: never;
+} 
+
+/* aliasing code */
+
+*{
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  image-rendering: optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+body{
+  background:
+  linear-gradient(to bottom,
+  rgb(0,0,0) 0%, 
+  rgb(63,63,63) 50%,
+  rgb(0,0,0) 100%);
+
+  background-attachment: fixed;
+}
+
+div#header, div#hSub{
+  text-align: center;
+
+  border: 0px none !important;
+   box-shadow: 0px 0px 5px #000a;
+} 
+
+div#header{
+  background:
+
+  linear-gradient(to bottom, 
+  rgb(0,68,204) 0%,
+  rgb(0,51,153) 100%);
+
+  z-index: 310;
+    color: black;
+}
+
+div#hSub{
+  background:
+
+  linear-gradient(180deg, 
+  rgb(109,176,242), 
+  rgb(102,153,204));
+
+  border-radius: 0% 0% 15px 15px;
+     box-shadow: 0px 0px 15px #fff;
+
+  margin-top: -1px;
+}
+
+/* win2k header*/ 
+
+.rightHead, .boxHead, .blogs.b{
+  background-image:  
+  url(https://files.catbox.moe/j8a4a7.png),
+
+  linear-gradient(to right,
+  #072269,
+  #a5c7ea);
+
+    background-repeat: no-repeat;
+  background-position: top right;
+      background-size: auto 100%;
+
+       padding: 1px;
+  padding-left: 4px;
+
+  color: white;
+}
+
+/* border */
+
+.box{
+  border: 5px solid transparent;
+  border-image: url(https://files.catbox.moe/520q98.png) 5 stretch;
+
+  background: #d2cec6;
+  box-shadow: 0px 0px 15px #fffc;
+
+  color: black;
+}
+
+h4{color: black;} 
+
+.topLeft{color: white;}
+
+.extended, .url, .player, #footer, .blogTitle > .uName{
+      border: transparent;
+  background: none;
+  box-shadow: 0 0 0;
+       color: white;
+}
+
+.url{font-size: 0px; border: 0px;} 
+
+.tableLeft{background-color: #36f;}
+
+.tableRight{background-color: #9bf;}
+
+button, input{  /* button */
+  background: #eee;
+  border: 2px outset #eee;
+  border-radius: 0px;
+  margin: 2px;
+}
+
+button:hover, input:hover{  /* button hover */
+  background: #ddd;
+  border-color: #ddd;
+}
+
+button:active, input:active{  /* button click */
+  background: #eee;
+  border: 2px inset #eee;
+}
+
+.comments{
+  border-top-style: transparent;
+
+     margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+.player{width: auto;}
+
+div.box.fwiends{overflow: hidden;}
+
+.fwiendFace {
+  border: 3px outset #d2cec6;
+   background-color: #d2cec6;
+
+  margin: 2px;
+  padding: 1vw;
+  box-shadow: 0px 0px 0px #000;
+  z-index: 150;
+
+  transition: all 0.25s;
+}
+
+.fwiendFace:hover {
+  box-shadow: 0px 0px 15px #000;
+  border-radius: 15px;
+  z-index: 175;
+  transform: scale(1.25);
+}
+
+.fwiendFace:active {
+  border: 3px inset #bcb6a9;
+}
