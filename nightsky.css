@@ -124,7 +124,7 @@ button:active, input:active{  /* button click */
 }
 
 .comments{
-  border-top-style: transparent;
+  border-top: transparent;
 
      margin-top: -5px;
   margin-bottom: 20px;
@@ -135,7 +135,8 @@ button:active, input:active{  /* button click */
 div.box.fwiends{
   overflow: hidden;
 
-  border-bottom-style: transparent;
+  border-bottom: transparent;
+  margin-bottom: 0px;
 }
 
 .fwiendFace {
