@@ -132,7 +132,11 @@ button:active, input:active{  /* button click */
 
 .player{width: auto;}
 
-div.box.fwiends{overflow: hidden;}
+div.box.fwiends{
+  overflow: hidden;
+
+  border-bottom-style: transparent;
+}
 
 .fwiendFace {
   border: 3px outset #d2cec6;
